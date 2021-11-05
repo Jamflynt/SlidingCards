@@ -18,6 +18,7 @@ body {
 .container {
     display: flex;
     width: 90vw;
+    position: relative; /* Added to help with overflow: hidden*/
 }
 
 .panel {
